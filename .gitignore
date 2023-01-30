@@ -1,0 +1,42 @@
+.metadata
+
+docker/db/data
+docker/.project
+docker/.settings/org.eclipse.core.resources.prefs
+
+postgres/.settings/org.eclipse.core.resources.prefs
+
+### about mercari project under these ignore files ###
+mercari/HELP.md
+mercari/target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+mercari/.apt_generated
+mercari/.classpath
+mercari/.factorypath
+mercari/.project
+mercari/.settings
+mercari/.springBeans
+mercari/.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
